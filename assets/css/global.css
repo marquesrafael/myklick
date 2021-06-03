@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root {
+  --global-font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --global-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+body {
+  background: url(../img/cover.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cover {
+  text-align: center;
+}
+
+.cover-copy {
+  color: #FFF;
+}
+
+/* Padding for spacing */
+.inner {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo {
+  width: 370px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+/* Custom default button */
+.btn-default {
+  color: #fff;
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+}
